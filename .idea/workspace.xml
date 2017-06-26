@@ -2,80 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00e5b8d6-eb8a-4ae5-94af-dd534595a0b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/components/page-content/plainReusable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/components/page-structure/editModePanel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/components/search/locationFinder.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/components/social/socialShare.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/accordion-content.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/accordion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/alert.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/background-section.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/base-theme-selector.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/billboard-advanced.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/billboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/blockquote.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/breadcrumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/carousel-slide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/carousel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/container.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/copyright.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/css-external.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/css-internal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/floating-submenu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/font-resizer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/footer-navigation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/google-search-results.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/google-translator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/html.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/iframe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/image-grid-image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/image-grid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/jumbotron.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/language-selector.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/listing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/media-list-search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/media-list.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/media-object.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/modal-window.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/navbar-alternate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/navbar-jump.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/navbar-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/navbar-menu-item.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/navbar-primary-nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/navbar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/pagination-pager.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/panel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/rich-text.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/row-advanced.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/row.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/script-external.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/script-inline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/scroll-to-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/search-box.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/search-results.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/secondary-navigation-advanced.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/secondary-navigation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/simple-content.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/social-connect.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/social-share.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/tab-content.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/tab-set.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/table.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/title.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/utility-navigation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/video-embed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons/components/video-player.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/components/page-content/plainHtml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/components/social/socialMediaShare.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icons/components/search/calendar_31 (1).png" afterPath="$PROJECT_DIR$/images/icons/components/search/calendar_31.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/components/page-content/plainHtmlReusable.html" afterPath="$PROJECT_DIR$/partials/components/page-content/plain.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/lists/contextListView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/lists/engagementListView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/lists/eventsListView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/lists/formsListView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/lists/mapsListView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/lists/mediaListView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/lists/securityListView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/lists/socialListView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/lists/taxonomyListView.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/codeInjectionListView.html" afterPath="$PROJECT_DIR$/partials/lists/compositesListView.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/contentListView.html" afterPath="$PROJECT_DIR$/partials/lists/pageContentListView.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/functionalListView.html" afterPath="$PROJECT_DIR$/partials/lists/pageStructureListView.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/navigationListView.html" afterPath="$PROJECT_DIR$/partials/lists/navigationListView.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/structuralListView.html" afterPath="$PROJECT_DIR$/partials/lists/searchListView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/routing.js" afterPath="$PROJECT_DIR$/js/routing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services/componentService.js" afterPath="$PROJECT_DIR$/js/services/componentService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/componentListView.html" afterPath="$PROJECT_DIR$/partials/componentListView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/controls/sideNav.html" afterPath="$PROJECT_DIR$/partials/controls/sideNav.html" />
     </list>
     <ignored path="sxa.iws" />
@@ -99,41 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routing.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routing.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/routing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sideNav.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/controls/sideNav.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="216" column="105" selection-start-line="216" selection-start-column="87" selection-end-line="216" selection-end-column="105" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="componentListView.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/componentListView.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="componentService.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/services/componentService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="82" column="74" selection-start-line="82" selection-start-column="74" selection-end-line="82" selection-end-column="74" />
+            <state relative-caret-position="153">
+              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,20 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/partials/components/media/flash.html" />
-        <option value="$PROJECT_DIR$/partials/components/navigation/archive.html" />
-        <option value="$PROJECT_DIR$/partials/components/navigation/link.html" />
-        <option value="$PROJECT_DIR$/partials/components/page-content/fieldEditor.html" />
-        <option value="$PROJECT_DIR$/partials/components/page-content/pageContent.html" />
-        <option value="$PROJECT_DIR$/partials/components/page-content/htmlReusable.html" />
-        <option value="$PROJECT_DIR$/partials/components/page-structure/divider.html" />
-        <option value="$PROJECT_DIR$/partials/components/page-structure/splitterColumns.html" />
-        <option value="$PROJECT_DIR$/partials/components/page-structure/splitterRows.html" />
-        <option value="$PROJECT_DIR$/partials/components/page-structure/toggle.html" />
-        <option value="$PROJECT_DIR$/partials/components/search/filterChecklist.html" />
-        <option value="$PROJECT_DIR$/partials/components/search/filterDate.html" />
-        <option value="$PROJECT_DIR$/partials/components/search/filterDropdown.html" />
-        <option value="$PROJECT_DIR$/partials/components/search/filterManagedRange.html" />
         <option value="$PROJECT_DIR$/partials/components/search/filterRadius.html" />
         <option value="$PROJECT_DIR$/partials/components/search/filterRangeSlider.html" />
         <option value="$PROJECT_DIR$/partials/components/search/filterSlider.html" />
@@ -200,11 +98,25 @@
         <option value="$PROJECT_DIR$/partials/componentListView.html" />
         <option value="$PROJECT_DIR$/partials/components/page-content/plain.html" />
         <option value="$PROJECT_DIR$/partials/components/page-content/plainReusable.html" />
-        <option value="$PROJECT_DIR$/partials/controls/sideNav.html" />
         <option value="$PROJECT_DIR$/partials/components/page-structure/editModePanel.html" />
-        <option value="$PROJECT_DIR$/js/routing.js" />
         <option value="$PROJECT_DIR$/partials/components/search/locationFinder.html" />
         <option value="$PROJECT_DIR$/js/services/componentService.js" />
+        <option value="$PROJECT_DIR$/partials/lists/contextListView.html" />
+        <option value="$PROJECT_DIR$/partials/lists/compositesListView.html" />
+        <option value="$PROJECT_DIR$/partials/lists/navigationListView.html" />
+        <option value="$PROJECT_DIR$/partials/lists/pageContentListView.html" />
+        <option value="$PROJECT_DIR$/partials/lists/pageStructureListView.html" />
+        <option value="$PROJECT_DIR$/partials/lists/searchListView.html" />
+        <option value="$PROJECT_DIR$/partials/controls/sideNav.html" />
+        <option value="$PROJECT_DIR$/js/routing.js" />
+        <option value="$PROJECT_DIR$/partials/lists/socialListView.html" />
+        <option value="$PROJECT_DIR$/partials/lists/taxonomyListView.html" />
+        <option value="$PROJECT_DIR$/partials/lists/securityListView.html" />
+        <option value="$PROJECT_DIR$/partials/lists/mediaListView.html" />
+        <option value="$PROJECT_DIR$/partials/lists/formsListView.html" />
+        <option value="$PROJECT_DIR$/partials/lists/mapsListView.html" />
+        <option value="$PROJECT_DIR$/partials/lists/eventsListView.html" />
+        <option value="$PROJECT_DIR$/partials/lists/engagementListView.html" />
       </list>
     </option>
   </component>
@@ -291,6 +203,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sxa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sxa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -310,28 +240,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sxa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sxa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,64 +289,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sxa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sxa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sxa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sxa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sxa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sxa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,15 +301,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jen.AWS-DESIGNER05\Documents\Repositories\sxa\images\icons\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jen.AWS-DESIGNER05\Documents\Repositories\sxa\partials\lists" />
       <recent name="C:\Users\Jen.AWS-DESIGNER05\Documents\Repositories\sxa\partials" />
       <recent name="C:\Users\Jen.AWS-DESIGNER05\Documents\Repositories\sxa\partials\components\social" />
       <recent name="C:\Users\Jen.AWS-DESIGNER05\Documents\Repositories\sxa\partials\components\search" />
       <recent name="C:\Users\Jen.AWS-DESIGNER05\Documents\Repositories\sxa\partials\components\page-structure" />
-      <recent name="C:\Users\Jen.AWS-DESIGNER05\Documents\Repositories\sxa\partials\components\page-content" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jen.AWS-DESIGNER05\Documents\Repositories\sxa\images\icons\components" />
     </key>
   </component>
   <component name="RunManager">
@@ -560,24 +414,25 @@
       <workItem from="1498447174248" duration="1840000" />
       <workItem from="1498449026793" duration="1921000" />
       <workItem from="1498450957522" duration="1808000" />
-      <workItem from="1498452780936" duration="706000" />
+      <workItem from="1498452780936" duration="1819000" />
+      <workItem from="1498454611163" duration="384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44124000" />
+    <option name="totallyTimeSpent" value="45621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15433404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15433404" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -589,25 +444,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15433404" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -625,97 +461,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/partials/components/search/filterChecklist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/search/filterDate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/search/filterDropdown.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/search/filterManagedRange.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/search/filterRadius.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/search/filterRangeSlider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/search/filterSlider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/search/loadMore.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/search/pageSelector.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/search/pageSize.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/search/resultsCount.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/taxonomy/tagList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/taxonomy/tagCloud.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/components/social/twitter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -783,13 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/structuralListView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -948,34 +686,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/routing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/controls/sideNav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="216" column="105" selection-start-line="216" selection-start-column="87" selection-end-line="216" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/componentListView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="118" selection-start-line="5" selection-start-column="108" selection-end-line="5" selection-end-column="118" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/services/componentService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="82" column="74" selection-start-line="82" selection-start-column="74" selection-end-line="82" selection-end-column="74" />
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/lists/contextListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/lists/searchListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/lists/pageStructureListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/lists/pageContentListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/lists/navigationListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/controls/sideNav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="149" column="62" selection-start-line="149" selection-start-column="62" selection-end-line="149" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/lists/compositesListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/lists/socialListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/lists/taxonomyListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/lists/securityListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/lists/mediaListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/lists/formsListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/lists/mapsListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/lists/eventsListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/lists/engagementListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/routing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding />
         </state>
       </provider>
