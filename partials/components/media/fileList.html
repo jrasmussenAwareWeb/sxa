@@ -1,0 +1,278 @@
+<h3>Media List</h3>
+
+<div class="row">
+    <div class="col-xs-5 text-left">
+        <img class="img-responsive" src="images/icons/components/media-list.png" />
+    </div>
+    <div class="col-xs-7 text-left">
+        <h4>Allowed In</h4>
+        <ul class="allowed">
+            <li><a href="Container"><span class="badge">Container</span></a></li>
+            <li><a href="Row"><span class="badge">Row</span></a></li>
+            <li><a href="Row_Advanced"><span class="badge">Row Advanced</span></a></li>
+        </ul>
+    </div>
+</div>
+
+<div style="clear:both"></div>
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Usage</h4>
+        <p></p>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Examples</h4>
+        <h5>Site Builder</h5>
+        <!--<img class="img-responsive" src="images/listing/example-listing-sb-nw-newsletters.jpg" />
+        <p><em>Example: </em>Set to display images & summaries, max summary characters limit of 300, Link Text blank</p>-->
+        <br />
+        <h5>Web</h5>
+        <!--<img class="img-responsive" src="images/mediaList/example-media-list-web-nw.jpg" />-->
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Content Group Options</h4>
+        <img class="img-responsive" src="images/mediaList/options-media-list.jpg" />
+        <br />
+        <p>To edit content group options, click the Edit Content Group icon <img src="images/icons/icon-edit.jpg" />. </p>
+
+        <table class="table table-striped table-responsive">
+            <tbody>
+            <tr>
+                <th>Option</th>
+                <th>Data Type</th>
+                <th>Function</th>
+            </tr>
+            <tr>
+                <td>Media Folder</td>
+                <td>Media Library</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Title Label</td>
+                <td>Input</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Type Label</td>
+                <td>Input</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Date Label</td>
+                <td>Input</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Show Header</td>
+                <td>Checkbox</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Disable Sorting</td>
+                <td>Checkbox</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Show Type Column</td>
+                <td>Checkbox</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Show Date Column</td>
+                <td>Checkbox</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Show Category Column</td>
+                <td>Checkbox</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Media List Class</td>
+                <td>Input</td>
+                <td>Add CSS class</td>
+            </tr>
+            <tr>
+                <td>Media List Styles</td>
+                <td>Input</td>
+                <td>Add CSS styles (inline)</td>
+            </tr>
+            </tbody>
+        </table>
+        <!--<p class="alert alert-info">
+            <i class="fa fa-info-circle" style="font-size:1.5em;position:relative;top:3px"></i>
+            <span>If <strong>Link Text</strong> is set here, it will override any input entered in the <em>Listing Item</em> content group options.</span>
+        </p>-->
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Code Sample</h4>
+        <code>
+<pre>
+&lt;div class="" style=""&gt;
+    &lt;table class="documentListing tablesorter" width="100%" border="0"&gt;
+        &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th scope="col" class="header"&gt;
+                &lt;a href="#"&gt;
+                    Type
+                    &lt;span class="sort_status"&gt;
+                        &lt;span class="fa fa-caret-up"&gt;&lt;/span&gt;
+                        &lt;span class="fa fa-caret-down"&gt;&lt;/span&gt;
+                    &lt;/span&gt;
+                &lt;/a&gt;
+            &lt;/th&gt;
+            &lt;th scope="col" class="header"&gt;
+                &lt;a href="#"&gt;
+                    Title
+                    &lt;span class="sort_status"&gt;
+                        &lt;span class="fa fa-caret-up"&gt;&lt;/span&gt;
+                        &lt;span class="fa fa-caret-down"&gt;&lt;/span&gt;
+                    &lt;/span&gt;
+                &lt;/a&gt;
+            &lt;/th&gt;
+            &lt;th scope="col" class="header"&gt;
+                &lt;a href="#"&gt;
+                    Date
+                        &lt;span class="sort_status"&gt;
+                &lt;span class="fa fa-caret-up"&gt;&lt;/span&gt;
+                &lt;span class="fa fa-caret-down"&gt;&lt;/span&gt;
+            &lt;/span&gt;
+                &lt;/a&gt;
+            &lt;/th&gt;
+            &lt;th scope="col" class="header"&gt;
+                &lt;a href="#"&gt;
+                    Category
+                        &lt;span class="sort_status"&gt;
+                &lt;span class="fa fa-caret-up"&gt;&lt;/span&gt;
+                &lt;span class="fa fa-caret-down"&gt;&lt;/span&gt;
+            &lt;/span&gt;
+                &lt;/a&gt;
+            &lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td class="dl_icon" data-sort-value="pdf"&gt;&lt;img alt="" src="/-/media/Images/Accelcor/Icons/FileTypes/icon_pdf.ashx" width="48" height="54"&gt;&lt;/td&gt;
+            &lt;td class="dl_title" data-sort-value="Proxima Nova Overview"&gt;
+                &lt;a href="/-/media/Files/SamplePDFs/ProximaNovaOverview.ashx" target="_blank"&gt;Proxima Nova Overview&lt;/a&gt;
+                &lt;br&gt;
+                &lt;span&gt;Proxima Nova Overview&lt;/span&gt;
+            &lt;/td&gt;
+
+            &lt;td class="dl_date"&gt;1/24/2017&lt;/td&gt;
+            &lt;td class="dl_category"&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+</pre>
+        </code>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Allowed Components</h4>
+        None
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Code Sample</h4>
+        <code>
+<pre>
+</pre>
+        </code>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Bootstrap Classes</h4>
+        <code>
+<pre>
+.documentListing {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.documentListing th {
+    background-color: #ebebeb;
+    white-space: nowrap;
+}
+.documentListing td, .documentListing th {
+    padding: 8px;
+}
+.documentListing th a {
+    color: #666;
+    text-decoration: none;
+}
+.documentListing .sort_status {
+    display: inline-block;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+.documentListing .dl_icon {
+    text-align: center;
+}
+.documentListing td {
+    border-bottom: 1px solid #ccc;
+}
+.documentListing .dl_icon img {
+    height: auto;
+    width: 35px;
+}
+.documentListing .dl_title a {
+    font-weight: bold;
+}
+.documentListing .dl_title span {
+    font-size: 12px;
+}
+.documentListing .dl_date,
+.documentListing .dl_category {
+    font-size: 12px;
+}
+</pre>
+        </code>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Tips &amp; Troubleshooting</h4>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Restrictions &amp; Dependencies</h4>
+    </div>
+</div>

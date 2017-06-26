@@ -1,0 +1,164 @@
+&nbsp;
+<p>The underlying architecture of Habitat and&nbsp;XsA &mdash;&nbsp;<a href="http://helix.sitecore.net" target="_blank">Helix</a>&nbsp;&mdash; is a set of principles and conventions focused on <big>simplicity</big>, <big>flexibility</big>, and <big>extensibility</big>.</p>
+
+<hr />&nbsp;
+<h1 id="simplicity" style="margin-bottom: 0;">Simplicity</h1>
+
+<p>Making the Sitecore solution manageable and simple - even as it grows and matures.<br />
+    &nbsp;</p>
+
+<h2 id="2273696d706c696369747920697320636f6e73697374656e637922" style="background-color: #e51b15; color: white; border: 1px solid black; padding: 5px 10px;">&quot;Simplicity is consistency&quot;</h2>
+<img alt="" height="50%" src="https://www.assembla.com/spaces/aware-front-end-dev/documents/aKM04ALwqr5OoQdmr6QqzO/download/aKM04ALwqr5OoQdmr6QqzO" style="border: 1px solid #ccc;" width="50%" /><br />
+&nbsp;
+<ul>
+    <li><strong>everything is modules</strong>
+
+        <ul>
+            <li>A module is a conceptual grouping of assets which relates to a business requirement.</li>
+            <li>The conventions, processes and tools for managing all these assets is a module-centric &ndash; and thereby business centric &ndash; way.&nbsp;</li>
+            <li>For example, when the company asks that their Sitecore solution contains website search, all assets, business logic and configuration relating to search belongs to the Search module.</li>
+        </ul>
+    </li>
+</ul>
+
+<ul>
+    <li><strong>every module has one purpose (no &quot;utilities&quot; or &quot;helpers&quot;)</strong></li>
+</ul>
+
+<ul>
+    <li><strong>keep modules as seperate as possible (<em>High Cohesion/Low Coupling</em>)</strong>
+
+        <ul>
+            <li>A module consists of all Types of Data &mdash;
+                <ul>
+                    <li>Code</li>
+                    <li>Configuration</li>
+                    <li>Templates</li>
+                    <li>Renderings</li>
+                    <li>Items</li>
+                </ul>
+            </li>
+            <li><u><em>The Reuse/Release Equivalency Principle (REP) </em><strong>- </strong><em>The granule of reuse is the granule of release </em></u>
+                <ul>
+                    <li>The package must be created with reusable classes&nbsp;&ndash; &ldquo;Either all of the classes inside the package are reusable, or none of them are&rdquo;.</li>
+                    <li>The classes must also be of the same family.</li>
+                    <li>Classes that are unrelated to the purpose of the package should not be included.</li>
+                    <li>A package constructed as a family of reusable classes tends to be most useful and reusable.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<ul>
+    <li><strong>a module is self contained </strong>&mdash;
+
+        <ul>
+            <li><u><em>The Common Reuse Principle (CRP) </em><strong>- </strong><em>Classes that play together, stay together</em></u>
+
+                <ul>
+                    <li>Classes that tend to be reused together belong in the same package together. It is a way of helping us decide which classes belong in which package.</li>
+                    <li>We also want to keep in mind that when we depend on a package, we want to make sure that the classes are inseparable, and interdependent, which is also handy when culling classes that don&rsquo;t belong.</li>
+                    <li>Tell us what belongs in a package.</li>
+                    <li>Cohesion is essential.</li>
+                    <li><span style="color: #ff0000;"><em>If we fail this, the architecture is pointless - minimize the chance of a change affecting a module.</em></span></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<ul>
+    <li><strong>make the modules as stable as possible </strong>&mdash;
+
+        <ul>
+            <li><u><em>The Common Closure Principle (CCP) </em><strong>- </strong><em>Classes that change together, belong together</em></u>
+
+                <ul>
+                    <li>The package should not have more than one reason to change.</li>
+                    <li>If change were to happen in an application dependent on a number of packages, ideally we only want changes to occur in one package, rather than in a number of them.</li>
+                    <li>This helps us determine classes that are likely to change and package them together for the same reasons.</li>
+                    <li>If the classes are tightly coupled, put them in the same package.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+&nbsp;
+
+<div style="background-color: #f5f5f5; color: black; font-size: 1.115em; border: 1px solid #e51b15; padding: 5px 10px;">
+    <h3 id="7768617420646f65732074686973206d65616e20746f2075733fc2a0">What does this mean to us?&nbsp;</h3>
+
+    <ol>
+        <li>Domain modules must have semantic HTML</li>
+        <li>Graphic Design and Visual Appearance belongs in the Project Layer</li>
+        <li>Only include functionality that belongs in the module</li>
+    </ol>
+</div>
+&nbsp;<br />
+&nbsp;
+<hr />&nbsp;
+<h1 id="flexibility" style="margin-bottom: 0;">Flexibility</h1>
+
+<p>Assuring the business that changes that additions can be made with smaller investments and without disruptions.<br />
+    &nbsp;</p>
+
+<h2 id="22666c65786962696c6974792069732070726f64756374697669747922" style="background-color: #e51b15; color: white; border: 1px solid black; padding: 5px 10px;">&quot;Flexibility is productivity&quot;</h2>
+
+<ul>
+    <li>for every change, we need to know what to test and what we are affecting</li>
+</ul>
+
+<ul>
+    <li>the coupling of modules is essential - keep track of references!</li>
+</ul>
+
+<ul>
+    <li>from loose to hard references (define Sitecore references in constants)</li>
+</ul>
+
+<ul>
+    <li><u><em>Stable Abstractions Principle - the abstraction of a package should be in proportion to its stability</em></u>
+
+        <ul>
+            <li>The more abstract a module is, the more stable it is in the solution.</li>
+            <li>Project specific page types and design are very concrete to a solution (<em>highly volatile</em>).</li>
+            <li>Domain logic has concrete features (specific functionality) but should be abstract to the solution.</li>
+            <li>Frameworks are abstract APIs (<em>highly stable</em>).</li>
+            <li>Use Sitecore Template Inheritance to abstract data from page types.</li>
+        </ul>
+    </li>
+</ul>
+
+<ul>
+    <li><u><em>Stable Dependencies Principle - the further down in the layers the more abstract and stable the modules should be</em></u>
+
+        <ul>
+            <li>Depend in the direction of stability.</li>
+            <li>Changes in lower level will affect more and requires a greater effort to test.</li>
+            <li>For productivity, we need to be able to trust the architecture.</li>
+            <li>Every dependency counts.</li>
+        </ul>
+    </li>
+</ul>
+&nbsp;
+
+<p style="font-size: 85%;"><em>Source</em>: <a href="https://laubplusco.net/the-groundbreaking-sitecore-habitat/" target="_blank">https://laubplusco.net/the-groundbreaking-sitecore-habitat/</a><br />
+    <br />
+    &nbsp;</p>
+
+<hr />&nbsp;
+<h1 id="extensibility" style="margin-bottom: 0;">Extensibility</h1>
+
+<p>Providing a quick and manageable way of extending solutions and reusing features across sites and even across solutions</p>
+
+<p>The conventions are based on a number of well-founded and industry-standard principles such as:<br />
+    &nbsp;</p>
+
+<ul>
+    <li>Low <a href="https://en.wikipedia.org/wiki/Coupling_%28computer_programming%29" target="_blank">Coupling</a> /High <a href="https://en.wikipedia.org/wiki/Cohesion_%28computer_science%29" target="_blank">Cohesion</a></li>
+    <li><a href="http://https://en.wikipedia.org/wiki/Domain-driven_design" target="_blank">Domain Driven Design</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Package_principles" target="_blank">Package Principles</a></li>
+</ul>
+
+<h2 id="3c7370616e207374796c653d226261636b67726f756e642d636f6c6f723a20236666666630303b223e6e65656473206d6f726520776f726b3c2f7370616e3e"><span style="background-color: #ffff00;">needs more work</span></h2>

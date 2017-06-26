@@ -1,0 +1,80 @@
+<p><br />
+    The most important concept to grasp while getting to know SxA is that the actual design happens outside of Sitecore via the <a href="Creative_Exchange">Creative Exchange</a>.<br />
+    To understand why this is important, let&#39;s first get a better understanding of the underlying <em>Habitat</em> modular architecture framework built on <em>Helix</em> principles.</p>
+
+<h1 id="3c62723eda7768617420697320686162697461743f" style="margin-bottom: 0;"><br />
+    What is Habitat?</h1>
+
+<p>Sitecore <a href="http://habitat.sitecore.net" target="_blank">Habitat</a> is a real Sitecore project implemented on the Sitecore Experience Platform using <em>Helix</em> and is an example that allows developers to see how <em>Helix </em><br />
+    is applied and lets developers experience a project based on these principles. In addition, it saves the developer from having to create these modules from scratch<br />
+    and also provides an excellent basis on which to develop additional modules and extend existing ones.</p>
+
+<h1 id="3c62723eda776861742069732068656c69783f" style="margin-bottom: 0;"><br />
+    What is Helix?</h1>
+
+<p><a href="http://helix.sitecore.net/introduction/index.html" target="_blank">Helix</a> is a set of overall design principles and conventions for Sitecore development often referred to as <em>Component-based Architecture </em>or <em>Modular Architecture</em>.<br />
+    In short, <em>Helix</em> and <em>Habitat </em>are built upon a set of principles and conventions focused on <a href="Principles"><big>simplicity</big>, <big>flexibility</big>, and <big>extensibility</big></a>.</p>
+
+<h1 id="3c62723eda77686174206973206d6f64756c6172206172636869746563747572653f" style="margin-bottom: 0;"><br />
+    What is Modular Architecture?</h1>
+
+<p>Modular Architecture<em> </em>is an architectural approach that was formalized for Sitecore solutions at <a href="http://pentia.net/" target="_blank">Pentia</a> where it has been in use since around 2009 and is focused on simplifying<br />
+    the development of the solution by breaking the solution into smaller independent and manageable parts. The Architecture in <em>Habitat</em> is primarily derived from the<br />
+    <a href="https://en.wikipedia.org/wiki/Package_principles" target="_blank">Package Principles</a> defined by <a href="https://en.wikipedia.org/wiki/Robert_Cecil_Martin" target="_blank">Robert C. Martin</a>, which describes how to avoid dependencies between unrelated parts by applying simple patterns.<br />
+    &nbsp;</p>
+
+<h2 id="layered_architecture">Layered Architecture</h2>
+
+<p><cite>Note that the layers in Modular&nbsp;Architecture are&nbsp;not equivalent to the layers seen in 3/n-tiers architecture even though they bear resemblance in terms of dependency direction.</cite></p>
+<img alt="" height="50%" src="https://www.assembla.com/spaces/aware-front-end-dev/documents/akd4oMLxer5OkNacwqEsg8/download/akd4oMLxer5OkNacwqEsg8" style="border: 1px solid #ccc;" width="50%" />
+<h3 id="c2a0" style="margin-bottom: 0;">&nbsp;</h3>
+
+<h2 id="project_(or_context)_layer">Project (or Context) layer</h2>
+
+<p>This layer provide the context of the solution. This means actual pagetypes, layout and design. It is on this layer where all the features of the solution is tailored together.<br />
+    Each time there is a change in a feature, a new one is added or one is removed, then this layer will change. The layer also contains the concrete design of the solution.<br />
+    This means that in terms of the <a href="Principles">Stable Dependencies Principle</a> then the modules on this layer are <em><strong>unstable</strong></em> - the&nbsp;most unstable modules in your solution.</p>
+
+<h3 id="c2a0" style="margin-bottom: 0;">&nbsp;</h3>
+
+<h2 id="domain_(or_features)_layer">Domain (or Features) layer</h2>
+
+<p>The Feature layer is the functionalities and the features of the website such as navigation, news, page contents, etc. all the presentation components and business logic<br />
+    should be here in this layer. The domain layer contain concrete features of&nbsp;the solution as understood by the editors and owners of the solution.<br />
+    The features are expressed as seen in the domain of the solution and not by technology.<br />
+    <br />
+    Each Domain layer module has to strictly conform with the <a href="Principles">Common Closure principle</a>. <em>What changes together should live together alone.</em><br />
+    This ensures that changes in one feature does not cause changes anywhere else. Features can be added modified and removed without impacting other features.<br />
+    <strong>Strict layering within the Domain layer is very important</strong>. One Domain module must <strong><span style="text-decoration: underline;"><em>never</em></span></strong> depend on another Domain module.<br />
+    Breaking this will make you lose many of the benefits that Modular Architecture provides.</p>
+
+<h3 id="c2a0" style="margin-bottom: 0;">&nbsp;</h3>
+
+<h2 id="framework_(or_foundation)_layer">Framework (or Foundation) layer</h2>
+
+<p>The foundation layer contains the services and the back end of the project that are used all over the other layers.<br />
+    This layer contain modules that is the foundation of your solution. When a change occur in one of these modules it will impact other modules in the solution.<br />
+    The modules are conceptually abstract and does not contain presentation in the form of renderings since these are to be considered concrete.<br />
+    <strong>There is not Strict Layering on the framework layer. </strong>This means that one framework module can depend on another framework module in the solution.</p>
+
+<h3 id="c2a0" style="margin-bottom: 0;">&nbsp;</h3>
+
+<h2 id="technology_layer">Technology Layer</h2>
+Finally, the above layers sit on top of the technology stack.<br />
+<img alt="" height="50%" src="https://www.assembla.com/spaces/aware-front-end-dev/documents/aL0Y0-Luer5RhcacwqEsg8/download/aL0Y0-Luer5RhcacwqEsg8" style="border: 1px solid #ccc;" width="50%" /><br />
+<br />
+<br />
+&nbsp;
+<div style="background-color: #f5f5f5; color: black; font-size: 1.115em; border: 1px solid #e51b15; padding: 5px 10px;">
+    <h3 id="7768617420646f65732074686973206d65616e20746f2075733fc2a0">What does this mean to us?&nbsp;</h3>
+
+    <ol>
+        <li>Keep HTML semantic</li>
+        <li>Avoid loose coupling as much as possible</li>
+        <li>Keep track of dependencies and keep references internal</li>
+        <li>Create common functionality framework modules</li>
+    </ol>
+</div>
+&nbsp;
+
+<hr />
